@@ -1,0 +1,5 @@
+title: "My Writing Portfolio"
+baseurl: ""        # leave blank for root
+url: "https://writingportfolio.github.io"  # your GitHub Pages URL
+markdown: kramdown
+theme: minima      # simple, clean Jekyll theme
