@@ -1,5 +1,15 @@
+# Site settings
 title: "My Writing Portfolio"
-baseurl: ""        # leave blank for root
-url: "https://writingportfolio.github.io"  # your GitHub Pages URL
+description: "A collection of my writing works"
+baseurl: ""      # leave empty since we are using GitHub Pages root
+url: "https://Axolotlsfirstlillilypad.github.io/writing-portfolio"
+
+# Collections
+collections:
+  works:
+    output: true  # ensures each work generates its own HTML page
+
+# Markdown settings
 markdown: kramdown
-theme: minima      # simple, clean Jekyll theme
+kramdown:
+  input: GFM
